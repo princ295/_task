@@ -1,0 +1,31 @@
+@import '../../../main-styles.scss';
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+   
+    margin: auto;
+   
+    padding-top: 30px;
+}
+
+.notes-list{
+    margin-top: 25px;
+}
+.notes-list{
+    margin-top: 30px;
+}
+app-notes-cart{
+    display: block;
+    margin-bottom: 20px;
+}
+.floating-add-button{
+    position: fixed;
+    bottom: 10px;
+
+    width: 500px;
+    border-radius: 0;
+
+    box-shadow:  0px 0px 15px 5px rgba($color: $purple, $alpha: 0.2);
+}
